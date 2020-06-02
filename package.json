@@ -1,0 +1,24 @@
+{
+  "name": "homework-11-eat_da_burger",
+  "version": "1.0.0",
+  "description": "this is a fun application that uses MySQL, Node, Express, Handlebars and ORM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnromano23/Homework-11-Eat_Da_Burger.git"
+  },
+  "author": "John Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnromano23/Homework-11-Eat_Da_Burger/issues"
+  },
+  "homepage": "https://github.com/johnromano23/Homework-11-Eat_Da_Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
