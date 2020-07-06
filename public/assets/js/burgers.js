@@ -2,10 +2,10 @@
 $(function () {
   $(".change-devour").on("click", function (event) {
     var id = $(this).data("id");
-    var newDevour = $(this).data("newdevour");
+    var newDevour = $(this).data("newdevourd");
 
     var newDevourState = {
-      devour: newDevour,
+      devourd: newDevour,
     };
 
     // Send the PUT request.
@@ -24,7 +24,7 @@ $(function () {
     event.preventDefault();
 
     var newBurger = {
-      name: $("#ca").val().trim(),
+      name: $("#bu").val().trim(),
       devour: $("[name=devour]:checked").val().trim(),
     };
 
